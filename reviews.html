@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - Maya Chen</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">MC</span>
+                </a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html#home" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="reviews.html" class="nav-link active">Reviews</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="contact.html" class="btn-nav">Let's Talk</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="hero" style="min-height: 60vh; padding: 140px 0 80px;">
+        <div class="container">
+            <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+                <span class="section-tag" data-aos="fade-up">Testimonials</span>
+                <h1 class="section-title" data-aos="fade-up" data-aos-delay="100">
+                    Client <span class="gradient-text">Reviews</span>
+                </h1>
+                <p style="font-size: 1.2rem; color: var(--text-secondary); margin-top: 20px;" data-aos="fade-up" data-aos-delay="200">
+                    Don't just take my word for it. Here's what my clients have to say about working with me.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Grid -->
+    <section style="padding: 80px 0; background: var(--bg-secondary);">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px;">
+                <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); padding: 40px; border-radius: 20px;" data-aos="fade-up">
+                    <div style="display: flex; gap: 4px; margin-bottom: 20px; color: #F59E0B;">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 24px; font-size: 1.05rem;">
+                        "Maya's work exceeded all expectations. Her attention to detail and creative vision transformed our online presence completely. The project was delivered on time and the results speak for themselves!"
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 16px;">
+                        <div style="width: 50px; height: 50px; border-radius: 50%; background: var(--gradient-primary); display: flex; align-items: center; justify-content: center; font-weight: 700;">JW</div>
+                        <div>
+                            <h4 style="margin-bottom: 4px;">James Wilson</h4>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">CEO, TechStart Inc.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); padding: 40px; border-radius: 20px;" data-aos="fade-up" data-aos-delay="100">
+                    <div style="display: flex; gap: 4px; margin-bottom: 20px; color: #F59E0B;">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 24px; font-size: 1.05rem;">
+                        "Working with Maya was a game-changer for our brand. She brought fresh perspectives and delivered exceptional results on time and within budget. Highly recommended!"
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 16px;">
+                        <div style="width: 50px; height: 50px; border-radius: 50%; background: var(--gradient-primary); display: flex; align-items: center; justify-content: center; font-weight: 700;">SK</div>
+                        <div>
+                            <h4 style="margin-bottom: 4px;">Sarah Kim</h4>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Founder, Creative Studio</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); padding: 40px; border-radius: 20px;" data-aos="fade-up" data-aos-delay="200">
+                    <div style="display: flex; gap: 4px; margin-bottom: 20px; color: #F59E0B;">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 24px; font-size: 1.05rem;">
+                        "Professional, creative, and incredibly talented. Maya turned our vision into reality with stunning design and flawless execution. Best decision we made!"
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 16px;">
+                        <div style="width: 50px; height: 50px; border-radius: 50%; background: var(--gradient-primary); display: flex; align-items: center; justify-content: center; font-weight: 700;">MR</div>
+                        <div>
+                            <h4 style="margin-bottom: 4px;">Michael Rodriguez</h4>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Marketing Director, GrowthCo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); padding: 40px; border-radius: 20px;" data-aos="fade-up">
+                    <div style="display: flex; gap: 4px; margin-bottom: 20px; color: #F59E0B;">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 24px; font-size: 1.05rem;">
+                        "The quality of work and level of professionalism was outstanding. Maya took the time to understand our needs and delivered a product that exceeded our expectations."
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 16px;">
+                        <div style="width: 50px; height: 50px; border-radius: 50%; background: var(--gradient-primary); display: flex; align-items: center; justify-content: center; font-weight: 700;">EL</div>
+                        <div>
+                            <h4 style="margin-bottom: 4px;">Emily Lopez</h4>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Product Manager, InnovateCo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); padding: 40px; border-radius: 20px;" data-aos="fade-up" data-aos-delay="100">
+                    <div style="display: flex; gap: 4px; margin-bottom: 20px; color: #F59E0B;">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 24px; font-size: 1.05rem;">
+                        "Maya's design skills are exceptional. She has a keen eye for detail and a deep understanding of user experience. Our conversion rates improved significantly!"
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 16px;">
+                        <div style="width: 50px; height: 50px; border-radius: 50%; background: var(--gradient-primary); display: flex; align-items: center; justify-content: center; font-weight: 700;">DP</div>
+                        <div>
+                            <h4 style="margin-bottom: 4px;">David Park</h4>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">CTO, DataFlow Systems</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); padding: 40px; border-radius: 20px;" data-aos="fade-up" data-aos-delay="200">
+                    <div style="display: flex; gap: 4px; margin-bottom: 20px; color: #F59E0B;">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 24px; font-size: 1.05rem;">
+                        "Fantastic experience from start to finish. Maya is not only talented but also easy to work with. She communicated clearly throughout the entire process."
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 16px;">
+                        <div style="width: 50px; height: 50px; border-radius: 50%; background: var(--gradient-primary); display: flex; align-items: center; justify-content: center; font-weight: 700;">AT</div>
+                        <div>
+                            <h4 style="margin-bottom: 4px;">Amanda Taylor</h4>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Director, Bloom Agency</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <div class="about-stats">
+                <div class="stat-item" data-aos="fade-up">
+                    <h3 class="stat-number" data-target="50">0</h3>
+                    <p class="stat-label">Projects Completed</p>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="stat-number" data-target="35">0</h3>
+                    <p class="stat-label">Happy Clients</p>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="stat-number" data-target="8">0</h3>
+                    <p class="stat-label">Awards Won</p>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="stat-number" data-target="98">0</h3>
+                    <p class="stat-label">Satisfaction Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">MC</span>
+                    <p>Crafting digital experiences with passion and precision.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maya Chen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100
+        });
+    </script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

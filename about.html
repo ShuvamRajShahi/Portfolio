@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Maya Chen</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">MC</span>
+                </a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html#home" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link active">About</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="reviews.html" class="nav-link">Reviews</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="contact.html" class="btn-nav">Let's Talk</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="hero" style="min-height: 60vh; padding: 140px 0 80px;">
+        <div class="container">
+            <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+                <span class="section-tag" data-aos="fade-up">About Me</span>
+                <h1 class="section-title" data-aos="fade-up" data-aos-delay="100">
+                    Creativity Meets <span class="gradient-text">Innovation</span>
+                </h1>
+                <p style="font-size: 1.2rem; color: var(--text-secondary); margin-top: 20px;" data-aos="fade-up" data-aos-delay="200">
+                    I'm a creative developer and designer passionate about building digital experiences that make a difference.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Story -->
+    <section style="padding: 80px 0; background: var(--bg-secondary);">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;">
+                <div data-aos="fade-right">
+                    <h2 style="font-size: 2.5rem; margin-bottom: 24px;">My Story</h2>
+                    <p style="color: var(--text-secondary); font-size: 1.1rem; line-height: 1.8; margin-bottom: 20px;">
+                        My journey in design and development began 6 years ago when I discovered my passion for creating digital experiences. What started as a hobby quickly evolved into a fulfilling career where I get to blend creativity with technology every day.
+                    </p>
+                    <p style="color: var(--text-secondary); font-size: 1.1rem; line-height: 1.8; margin-bottom: 20px;">
+                        I believe that great design is not just about aesthetics—it's about solving problems, enhancing experiences, and creating meaningful connections between people and technology.
+                    </p>
+                    <p style="color: var(--text-secondary); font-size: 1.1rem; line-height: 1.8;">
+                        Today, I work with clients worldwide, helping them bring their visions to life through thoughtful design and clean code.
+                    </p>
+                </div>
+                <div data-aos="fade-left">
+                    <div style="background: var(--gradient-primary); padding: 60px; border-radius: 20px; text-align: center;">
+                        <svg viewBox="0 0 300 300" fill="none" style="width: 100%; height: auto;">
+                            <circle cx="150" cy="150" r="120" fill="rgba(255,255,255,0.1)"/>
+                            <circle cx="150" cy="150" r="80" fill="rgba(255,255,255,0.15)"/>
+                            <circle cx="150" cy="150" r="40" fill="rgba(255,255,255,0.2)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-aos="fade-up">Expertise</span>
+                <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Skills & <span class="gradient-text">Technologies</span></h2>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
+                <div style="padding: 30px; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 16px;" data-aos="fade-up">
+                    <h3 style="font-size: 1.3rem; margin-bottom: 20px; color: var(--accent-purple);">Frontend Development</h3>
+                    <ul style="list-style: none;">
+                        <li style="padding: 8px 0; color: var(--text-secondary);">• HTML5 / CSS3 / JavaScript</li>
+                        <li style="padding: 8px 0; color: var(--text-secondary);">• React / Vue.js / Next.js</li>
+                        <li style="padding: 8px 0; color: var(--text-secondary);">• Tailwind CSS / SASS</li>
+                        <li style="padding: 8px 0; color: var(--text-secondary);">• Responsive Design</li>
+                    </ul>
+                </div>
+                <div style="padding: 30px; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 16px;" data-aos="fade-up" data-aos-delay="100">
+                    <h3 style="font-size: 1.3rem; margin-bottom: 20px; color: var(--accent-pink);">Design</h3>
+                    <ul style="list-style: none;">
+                        <li style="padding: 8px 0; color: var(--text-secondary);">• UI/UX Design</li>
+                        <li style="padding: 8px 0; color: var(--text-secondary);">• Figma / Adobe XD</li>
+                        <li style="padding: 8px 0; color: var(--text-secondary);">• Prototyping</li>
+                        <li style="padding: 8px 0; color: var(--text-secondary);">• Design Systems</li>
+                    </ul>
+                </div>
+                <div style="padding: 30px; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 16px;" data-aos="fade-up" data-aos-delay="200">
+                    <h3 style="font-size: 1.3rem; margin-bottom: 20px; color: var(--accent-cyan);">Other Skills</h3>
+                    <ul style="list-style: none;">
+                        <li style="padding: 8px 0; color: var(--text-secondary);">• Git / Version Control</li>
+                        <li style="padding: 8px 0; color: var(--text-secondary);">• Web Performance</li>
+                        <li style="padding: 8px 0; color: var(--text-secondary);">• SEO Optimization</li>
+                        <li style="padding: 8px 0; color: var(--text-secondary);">• Project Management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section style="padding: 100px 0; background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-aos="fade-up">Journey</span>
+                <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Professional <span class="gradient-text">Experience</span></h2>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="padding: 40px; background: rgba(255,255,255,0.02); border-left: 3px solid var(--accent-purple); margin-bottom: 30px; border-radius: 8px;" data-aos="fade-up">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 8px;">Senior UX Designer</h3>
+                    <p style="color: var(--accent-purple); margin-bottom: 16px;">Digital Agency • 2022 - Present</p>
+                    <p style="color: var(--text-secondary); line-height: 1.8;">Leading design projects for Fortune 500 clients, focusing on user-centered design and conversion optimization.</p>
+                </div>
+                <div style="padding: 40px; background: rgba(255,255,255,0.02); border-left: 3px solid var(--accent-pink); margin-bottom: 30px; border-radius: 8px;" data-aos="fade-up" data-aos-delay="100">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 8px;">Frontend Developer</h3>
+                    <p style="color: var(--accent-pink); margin-bottom: 16px;">Tech Startup • 2020 - 2022</p>
+                    <p style="color: var(--text-secondary); line-height: 1.8;">Built responsive web applications using React and modern JavaScript, collaborated with cross-functional teams.</p>
+                </div>
+                <div style="padding: 40px; background: rgba(255,255,255,0.02); border-left: 3px solid var(--accent-cyan); border-radius: 8px;" data-aos="fade-up" data-aos-delay="200">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 8px;">UI/UX Designer</h3>
+                    <p style="color: var(--accent-cyan); margin-bottom: 16px;">Creative Studio • 2019 - 2020</p>
+                    <p style="color: var(--text-secondary); line-height: 1.8;">Designed user interfaces for mobile and web applications, created design systems and brand identities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <div style="text-align: center; padding: 80px 40px; background: var(--gradient-primary); border-radius: 30px;" data-aos="fade-up">
+                <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Let's Work Together</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 40px; opacity: 0.9;">Have a project in mind? I'd love to hear about it.</p>
+                <a href="contact.html" class="btn-primary" style="background: white; color: var(--accent-purple);">
+                    Get In Touch
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M5 12h14M12 5l7 7-7 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">MC</span>
+                    <p>Crafting digital experiences with passion and precision.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maya Chen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100
+        });
+    </script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
